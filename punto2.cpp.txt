@@ -1,0 +1,44 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int N,spares,simpares,i;
+
+int main()
+{
+    
+    cout<<"INGRESE NUMERO :"<<endl;
+    cin>>N;
+    
+    for(i=0;i<=N;i++)
+    {
+        
+        if(i%2 != 0)
+        {
+            
+            simpares = simpares + i;
+            
+            
+            
+            }
+            
+            else if ( i%2 == 0)
+            {
+                
+                spares = spares + i;
+                
+                
+                
+                }
+        
+        
+        
+        }
+        
+        cout<<"la suma de  los pares es :"<<spares<<endl;
+        cout<<"la suma de  los impares es :"<<simpares<<endl;
+   
+  
+  return 0;
+}
