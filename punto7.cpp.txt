@@ -1,0 +1,39 @@
+#include <iostream>
+#include<string>
+
+
+using namespace std;
+
+string frase;
+
+void conversion(string frase1)
+{
+    
+    
+    int temp;
+    for(char c : frase1)
+    {
+            temp = c - 32;
+            c = temp;
+            cout<<c;
+
+    }
+
+
+
+    
+
+
+}
+
+
+
+int main()
+{
+    cout<<"INGRESE FRASE :"<<endl;
+    getline(cin,frase);
+
+    conversion(frase);
+
+    return 0;
+}
