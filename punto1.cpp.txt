@@ -1,0 +1,55 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+char calificacion;
+
+int main()
+{
+   cout<<"INGRESE CALIFICACION :"<<endl;
+   cin>>calificacion;
+   
+   switch(calificacion)
+   {
+       
+       case 'A' :
+       
+       cout<<"APROBADO,EXCELENTE!"<<endl;
+      
+       break;
+       
+       case 'B' :
+       
+       cout<<"APROBADO,SOBRESALIENTE!"<<endl;
+       
+       break;
+       
+       case 'C' :
+       
+       cout<<"APROBADO,ACEPTABLE!"<<endl;
+       
+       break;
+       
+       case 'D':
+       
+       cout<<"REPROBADO,INSUFICIENTE!"<<endl;
+       
+       break;
+       
+       case 'F':
+       
+       cout<<"REPROBADO,DEFICIENTE!"<<endl;
+       
+       break;
+       
+       default :
+       
+       cout<<"CARACTER NO VALIDO"<<endl;
+       
+       break;
+       
+     }
+       
+       return 0;
+  
+}
